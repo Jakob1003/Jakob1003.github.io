@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jakob Dick">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- Wrap the top-level heading in a header element -->
+        <header>
+            <h1>Planets Data</h1>
+        </header>
+        <!-- Add a main element to contain the table -->
+            <main>
+            <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
+                <table>
+                <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
+                <caption>
+                    Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+                </caption>
+                <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
+                <colgroup>
+                        <col title="Empty" XXX>
+                        <col title="Name">
+                        <col title="Mass">
+                        <col title="Diameter">
+                        <col title="Density">
+                        <col title="Gravity"> 
+                        <col title="LOD">
+                        <col title="DFS"> 
+                        <col title="MT">
+                        <col title="NumMoons">
+                        <col title="Notes">
+                        <col title="Image">
+                </colgroup>
+                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
+                <thead>
+                    <tr>
+                        <th scope="Empty"></th>
+                        <th scope="Name"> Name</th>
+                        <th scope="Mass"> Mass (10^24 kg)</th>
+                        <th scope="Diameter">Diameter (km)</th>
+                        <th scope="Density">Density (kg/m3)</th>
+                        <th scope="Gravity">Gravity (m/s2)</th>
+                        <th scope="LOD">Length of Day (hours)</th>
+                        <th scope="DFS">Distance from Sun (10^6km)</th>
+                        <th scope="MT">Mean Temperature C</th>
+                        <th scope="NumMoons">Number of moons</th>
+                        <th scope="Notes">Notes</th>
+                        <th scope="Image">Image</th>
+                    </tr>
+                </thead>
+                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
+                <tbody>
+                    <tr>
+                        <th scope="row">Terrestial Planets</th>
+                        <td>Mercury</td>
+                        <td>0.330</td>
+                        <td>4.879</td>
+                        <td>5427</td>
+                        <td>3.7</td>
+                        <td>4222.6</td>
+                        <td>57.9</td>
+                        <td>167</td>
+                        <td>0</td>
+                        <td>Closest to the Sun</td>
+                        <td> <img src="/images/mercury.jpg" alt="Mercury" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jovian Planets</td>
+                    </tr>
+                    <tr>
+                        <td>Dwarf Planets</td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                </tbody>
+                <!-- Please note that you do NOT need to add a table footer for this assignment. -->
+                </table>
+            </main>
+    </body>
+</html>
