@@ -75,42 +75,106 @@ header, footer {
 /* NOTE: While you will be using some of the same CSS properties, the VALUES 
    may need to be different in order to style the page correctly. */
 
-
-
 /* Imported Typfaces */
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family:JoseFinSlab;
+}
 
-
-
-
-
+@font-face {
+    src:
+    url("../fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family:Montserrat;
+}
 /* Typography Styles */
+html {
 
+    font-family:Montserrat, Arial, Helvetica, sans-serif;
+}
 
+h1,
+h2 {
+    letter-spacing:.125rem;
+    font-family:JoseFinSlab, Georgia, 'Times New Roman', Times, serif;
+}
 
+h1 {
 
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align: center;
 
+}
+h2 {
 
+    font-size:1.5rem;
+}
+
+h2 + p {
+
+    text-indent: 1.5rem;
+}
+
+p,
+li {
+
+    font-size: 0.75rem;
+    letter-spacing: .03125rem;
+  word-spacing: .125rem;
+}
+
+figcaption {
+
+    font-size:.75rem;
+    margin-bottom:2rem;
+}
 /* Link Styling */
+a {
 
+    text-decoration: none;
+}
 
+a:link,
+a:visited {
 
+    color:#33658A;
+}
 
+a:hover,
+a:focus {
 
-
+    text-decoration: none;
+}
 /* List Styling */
 
-
-
-
-
-
 /* Navigation Menu */
+nav {
 
+    padding-left:0;
+    margin-top:.25rem;
+}
+nav a {
 
+    display:inline-block;
+    width:100%;
+    line-height:3;
+    text-align: center;
+    font-size:1.125rem;
+    margin-bottom:1.5rem;
+    border:solid .0625rem #33658A;
+}
 
+nav a:hover {
 
+    background-color:#33658A;
+    color:#FFF;
 
-
+}
 /* Footer Styles */
 
 
